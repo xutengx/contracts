@@ -1,0 +1,25 @@
+{
+	"name": "xutengx/contracts",
+	"description": "contracts",
+	"keywords": [
+		"contracts",
+		"xuteng",
+		"gaara"
+	],
+	"license": "MIT",
+	"type": "library",
+	"authors": [
+		{
+			"name": "xuteng",
+			"email": "68822684@qq.com"
+		}
+	],
+	"require": {
+		"php": ">=7.1.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Gaara\\Contracts\\": "src/"
+		}
+	}
+}
