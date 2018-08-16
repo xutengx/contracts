@@ -3,7 +3,7 @@
 declare(strict_types = 1);
 namespace Gaara\Contracts\Cache;
 
-interface DriverInterface {
+interface Driver {
 
 	/**
 	 * 读取缓存
