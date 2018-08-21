@@ -1,7 +1,7 @@
 <?php
 
 declare(strict_types = 1);
-namespace Gaara\Contracts\Cache;
+namespace Xutengx\Contracts\Cache;
 
 interface Driver {
 

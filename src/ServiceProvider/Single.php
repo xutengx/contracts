@@ -1,6 +1,6 @@
 <?php
 
-namespace Gaara\Contracts\ServiceProvider;
+namespace Xutengx\Contracts\ServiceProvider;
 
 interface Single {
 

@@ -19,18 +19,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Gaara\\Contracts\\": "src/"
-		}
-	},
-	"repositories": {
-		"packagist": {
-			"type": "composer",
-			"url": "https://packagist.phpcomposer.com"
-		}
-	},
-	"extra": {
-		"branch-alias": {
-			"dev-master": "2.4-dev"
+			"Xutengx\\Contracts\\": "src/"
 		}
 	}
 }

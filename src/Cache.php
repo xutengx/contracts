@@ -1,9 +1,9 @@
 <?php
 
 declare(strict_types = 1);
-namespace Gaara\Contracts\Cache;
+namespace Xutengx\Contracts;
 
-interface Manager {
+interface Cache {
 
 	/**
 	 * 读取缓存

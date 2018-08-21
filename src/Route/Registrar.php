@@ -1,6 +1,6 @@
 <?php
 
-namespace Gaara\Contracts\Route;
+namespace Xutengx\Contracts\Route;
 
 use Closure;
 
