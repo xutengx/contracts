@@ -22,6 +22,15 @@ interface Driver {
 	public function set(string $key, string $value, int $expire): bool;
 
 	/**
+	 * 设置缓存
+	 * 仅在不存在时设置缓存 set if not exists
+	 * @param string $key 键
+	 * @param string $value 值
+	 * @return bool
+	 */
+	public function setnx(string $key, string $value): bool;
+
+	/**
 	 * 删除单一缓存
 	 * @param string $key 键
 	 * @return bool
